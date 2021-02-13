@@ -45,7 +45,7 @@ table {
 
 /* /Resetto */
 
-/* Colors */
+/* Colors *
 
 .main-header{
 	background-color: gray;
@@ -63,6 +63,9 @@ table {
 
 /* Merryweather fleets here bro! */
 
+*{
+	box-sizing: border-box;
+}
 body{
 	font-family: 'Merriweather', 'Times New Roman', serif;
 	font-size: 1.125rem;
@@ -86,8 +89,65 @@ p.main-header{
 header p{
 	color: #8C8E9B;
 }
+a{
+	color: #E5127D;
+	text-decoration: none;
+}
+a:hover{
+	color: #B60E63;
+}
+
+/* /Bases*/
+
+/* Layout */
+
+h1, h2, h3, h4, h5, h6, hgroup,
+ul, ol, dd,
+p, figure,
+pre, table, fieldset, hr,
+img,
+.main-header, .main-content{
+	margin-bottom: 1rem;
+}
+.main-header{
+	text-align: center;
+	padding: 1.25rem;
+	color: #FFF;
+	background-color: #42444E;
+}
+.post{
+	width: 95%;
+	margin: 0 auto 1rem;
+	padding: 0.3125rem;
+}
 .pic{
 	width: 100%;
 }
 
-/* /Bases*/
+/* /Layout */
+
+/* Components */
+
+.button{
+	display: inline-block;
+	border: 1px solid #8C8E9B;
+	color: #8C8E9B;
+	border-radius: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin: 5px;
+	width: 100px;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+.button:hover{
+	border: 1px solid #B60E63;
+}
+.load{
+	display: block;
+	text-align: center;
+	padding: 0.625rem;
+	font-size: 1.25rem;
+	color: #8C8E9B;
+}
+
+/* /Components */
