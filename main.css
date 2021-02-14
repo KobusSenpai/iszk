@@ -151,3 +151,31 @@ img,
 }
 
 /* /Components */
+
+/* Media Wraps */
+
+@media(min-width: 768px){
+	.main-header{
+		position: fixed;
+		top: 0;
+		height: 100%;
+		width: 33.3%;
+	}
+	.main-content{
+		float: right;
+		width: 66.6%;
+		max-width: 812px;
+	}
+}
+@media(min-width: 1025px){
+	.main-header{
+		width: 20.625%;
+	}
+	.main-content{
+		float: none;
+		position: absolute;
+		left: 20.625%;
+	}
+}
+
+/* /Media Wraps */
